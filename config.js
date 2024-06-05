@@ -5,20 +5,20 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "zaxmd001@gmail.com";
+global.email = "rcdmd@gmail.com";
 global.location = "Lahore,Pakistan.";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "true";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Dodoma";
-global.github = process.env.GITHUB || "https://github.com/Xiangzaoh/Zax-Md";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaZlD9sHltY52Bg1Vy2k";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaZlD9sHltY52Bg1Vy2k";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://iili.io/JgAR7WJ.jpg";
+global.github = process.env.GITHUB || "null";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vag1WQFJf05dF0pQeU3u";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vag1WQFJf05dF0pQeU3u";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/a789a7f2437c053ec829a.jpg";
 global.devs = "255688930205";
-global.sudo = process.env.SUDO || "255688930205";
-global.owner = process.env.OWNER_NUMBER || "255688930205";
+global.sudo = process.env.SUDO || "94789958225";
+global.owner = process.env.OWNER_NUMBER || "94789958225";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || "",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "©zᴀxᴍᴅ",
-  author: process.env.PACK_AUTHER || "zᴀx-ᴍᴅ",
-  packname: process.env.PACK_NAME || "zᴀx-bot",
-  botname: process.env.BOT_NAME || "zᴀx ᴍᴅ",
-  ownername: process.env.OWNER_NAME || "MrXhriss",
+  caption: process.env.CAPTION || "*ᆖRᆖᆖCᆖᆖDᆖ ᆖMᆖᆖDᆖ*",
+  author: process.env.PACK_AUTHER || "𝗥𝗖𝗗",
+  packname: process.env.PACK_NAME || "𝗕𝗢𝗧",
+  botname: process.env.BOT_NAME || "*ᆖRᆖᆖCᆖᆖDᆖ ᆖMᆖᆖDᆖ*",
+  ownername: process.env.OWNER_NAME || "RCD",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -64,7 +64,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: (process.env.THEME || "zᴀx").toUpperCase(),
+  LANG: (process.env.THEME || "RCD").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
