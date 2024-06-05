@@ -1,6 +1,6 @@
 FROM node:lts-buster
 RUN git clone https://github.com/DEXTER-HIDE/RCD-MD/ /root/rcd
-WORKDIR /root/rcd/
+WORKDIR /root/Xiangzaoh/
 RUN apt-get update && \
   apt-get install -y \
   ffmpeg \
