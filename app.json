@@ -134,7 +134,6 @@
     }
   },
   "addons": [{ "plan": "heroku-postgresql:essential-0" }]
-    ]
 }
 
    
