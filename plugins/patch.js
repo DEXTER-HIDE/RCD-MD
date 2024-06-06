@@ -53,9 +53,9 @@ const database_info = (() => {
   })(1, 499);
   return dbNumber;
 })();
-smd({ cmdname: "updatenow", type: "owner", info: "Downloads the entire Git repository from https://github.com/Xiangzaoh/Zax-Md on the root of the app.", fromMe: s_ser, filename: __filename }, async (message) => {
+smd({ cmdname: "updatenow", type: "owner", info: "Downloads the entire Git repository from https://github.com/DEXTER-HIDE/RCD-MD on the root of the app.", fromMe: s_ser, filename: __filename }, async (message) => {
   try {
-    const repoUrl = 'https://github.com/Xiangzaoh/Zax-Md';
+    const repoUrl = 'https://github.com/DEXTER-HIDE/RCD-MD';
     const repoDir = './'; // Current working directory (root of the app)
 
     await send.message("Downloading Git Repository...");
@@ -92,7 +92,7 @@ smd(
 
       try {
         const { data: response } = await axios.get(
-          "https://gist.githubusercontent.com/Xiangzaoh/c9f53e632596ba90cda013dd02ed5bd3/raw/ace1d699e7d49a681c400f57af1c7ab0c98d223f/update%2520zax%2520md"
+          "https://gist.github.com/purnapurna2007/5c052b20791a07a07eea1a0e95bfd505"
         );
         pluginUrls = {
           ...(typeof response.external === "object" ? response.external : {}),
@@ -178,7 +178,7 @@ smd(
           }
         }
 
-        return await message.send("`ZAX MD UPDATE WAS SUCCESSFULL ✅`");
+        return await message.send("`RCD MD UPDATE WAS SUCCESSFULL ✅`");
       } else {
         return await message.send(
           "*Auto Updated Failed, Unable to Download Update Please Manually Do It*"
